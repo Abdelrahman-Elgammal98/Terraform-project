@@ -4,16 +4,27 @@
 project-folder/
 
 │-- elb-m/                # Load Balancers configuration
+
 │-- gateways-m/           # Internet Gateway & NAT Gateway
+
 │-- instance-m/           # EC2 instances and provisioning
+
 │-- project pics/         # Project-related images
+
 │-- routes-m/             # Route Tables configuration
+
 │-- s3-statefile/         # Terraform state storage (S3 backend)
+
 │-- SecurityGroups-m/     # Security Groups for instances and ELBs
+
 │-- subnet-m/             # Subnets definitions (Public & Private)
+
 │-- vpc-m/                # VPC configuration
+
 │-- main.tf               # Main Terraform configuration file
+
 │-- outputs.tf            # Output values (ELB DNS, instance IPs, etc.)
+
 │-- provider.tf           # AWS Provider setup
 
 # 🧱 Project Modules
